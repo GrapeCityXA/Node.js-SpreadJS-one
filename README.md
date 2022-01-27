@@ -1,39 +1,16 @@
 # Node.js运行SpreadJS处理 Excel方案讨论（一）
 
-#### 介绍
-{**以下是 Gitee 平台说明，您可以替换此简介**
-Gitee 是 OSCHINA 推出的基于 Git 的代码托管平台（同时支持 SVN）。专为开发者提供稳定、高效、安全的云端软件开发协作平台
-无论是个人、团队、或是企业，都能够用 Gitee 实现代码托管、项目管理、协作开发。企业项目请看 [https://gitee.com/enterprises](https://gitee.com/enterprises)}
+在我们实际应用中，很可能会遇到这样的需求：批量绑定数据源并导出Excel、批量修改大量的Excel内容及样式、服务端批量打印以及生成PDF文档等。对于有这方面需求的用户，实际上我们已经提供了非常成熟的解决方案：[GcExcel](https://www.grapecity.com.cn/developer/grapecitydocuments/excel-java)。GcExcel已经能够在完成以上需求场景的同时，在性能和稳定性上也达到了同类产品中一流的水平。的确，JavaScript确实是一门能力非常强大的语言，尤其是自2009年Node.js横空出世一来，JavaScript也已经被用在了更丰富的场景中，甚至业界流传着这样一句话：
 
-#### 软件架构
-软件架构说明
+> Atwood's Law: Any application that can be written in JavaScript, will eventually be written in JavaScript.
+
+> 任何可以用 JavaScript 来写的应用，最终都将用 JavaScript 来写。
 
 
-#### 安装教程
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+但是，大家可能不知道的是，这句话还有下半句：
 
 
-#### 特技
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+
+
+
